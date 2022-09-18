@@ -1,0 +1,21 @@
+.modal.fade.show {
+  background: rgba(72, 66, 66, 0.55);
+  overflow-y: auto;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+}
+.modal.fade.show .modal-dialog.modal-xl.modal-dialog-scrollable {
+  height: 100vh;
+  width: 100vw;
+}
+.modal.fade.show .modal-content {
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: inset 0px -4px 1px #e0e8f3;
+  padding: 100px 50px 100px 50px;
+  margin: 40px 260px 230px 260px;
+}
+.modal-body {
+}
